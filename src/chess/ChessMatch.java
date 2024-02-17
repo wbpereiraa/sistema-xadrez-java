@@ -50,7 +50,7 @@ public class ChessMatch {
             throw new ChessException("Essa peça não existe nesta posição! Aperte enter para continuar.");
         }
         if(!board.piece(position).isThereAnyPossibleMove()){
-            throw new ChessException("Não existem movimentos possíveis para a peça escolhida!");
+            throw new ChessException("Não existem movimentos possíveis para a peça escolhida! Aperte enter para continuar!");
         }
     }
 
